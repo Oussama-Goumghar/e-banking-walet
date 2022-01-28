@@ -1,0 +1,36 @@
+{
+  "name": "Walet",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "idCLient",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "login",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "walet",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["waletApi"],
+  "microserviceName": "waletApi",
+  "clientRootFolder": "waletApi",
+  "databaseType": "sql",
+  "changelogDate": "20220117225659"
+}
